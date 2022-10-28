@@ -1,0 +1,175 @@
+body {
+    background-color: #16213E;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+.topnav {
+	width: 100%;
+	float: left;
+	padding: 0;
+    margin: 0;
+	background-color: #16213E;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right:0;
+}
+
+.topnav ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    top: 20px;
+}
+
+.topnav li {
+    display: inline;
+    float: left;
+}
+
+.topnav li a{
+    display: block;
+	padding:  0px 10px;
+	text-decoration: none;
+    font-weight: bold;
+	color: #fff;
+    font-size: 29px;
+    margin-left: 5em;
+}
+
+.topnav li a:hover {
+    color: #16213E;
+	background-color: #fff;
+}
+
+.topnav img {
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.eveniment h1 {
+    text-align: center;
+    border: 5px solid #E94560;
+    background-color: #E94560;
+    border-radius: 5px;
+    color: #16213E;
+    font-size: 60px;
+}
+
+.eveniment p {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.eveniment img {
+    width:30%;
+    height: 300px;
+    margin: 2px;
+    padding: 10px;
+    border: 8px solid #E94560;
+}
+
+.eveniment button {
+    border-radius: 8px;
+    border: #E94560;
+    padding: 16px;
+    margin-left: 650px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #16213E;
+}
+.eveniment button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#part h2 {
+    text-align: center;
+    border: 5px solid #533483;
+    background-color: #533483;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#part ul {
+color: #fff;
+list-style-type: disc;
+margin-top: 0px;
+}
+
+#part h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+#part li {
+    font-size: 30px;
+    color: #E94560;
+    font-weight: bold;
+}
+
+#part img{
+    height: 350px;
+    width: 500px;
+    margin-left:500px;
+    margin-top: 0px;
+    padding: 10px;
+    border: 8px solid #533483;
+
+}
+#contact {
+    float:left;
+    text-align: center;
+    border: 5px solid #E94560;
+    background-color: #E94560;
+    border-radius: 5px;
+    color: #fff;
+    width: fit-content;
+}
+#contact p{
+    text-align: left;
+}
+
+#noi { 
+    text-align: left;
+    border: 5px solid #0F3460;
+    background-color: #0F3460;
+    border-radius: 5px;
+    color: #fff;
+    width: fit-content;
+    overflow: hidden;
+    padding: auto;
+}
+
+#noi h2{
+    text-align: center;
+    border: 5px solid #0F3460;
+    background-color: #0F3460;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#noi img {
+    width: 135px;
+    height: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    float: left;
+    padding-right: 15px;
+}
+
+#parteneri {
+    float: right;
+    text-align: center;
+    border: 5px solid #533483;
+    background-color: #533483;
+    border-radius: 5px;
+    color: #fff;
+    width: fit-content;
+}
